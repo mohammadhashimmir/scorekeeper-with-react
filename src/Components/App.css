@@ -1,0 +1,103 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("./3.jpg.jpg");
+    background-repeat:no-repeat;
+ background-position: center center; 
+
+}
+#root{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+.main{
+    border-radius: 20px;
+    border: 2px solid #adb5bd;
+    background-color:rgba(0,0,0,0.6);
+    margin-top: 135px;
+    width: 500px;    
+}
+
+
+.headingDiv{
+    margin-top: 10px;
+}
+h1{
+    text-shadow:1px 1px 5px slategray;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;      
+}
+
+
+p{
+margin-top: 100px;
+font-weight: bold;
+font-size: 100px;
+color: azure;
+margin-bottom: 40px;
+}
+
+.s3{
+    color:azure;
+    font-weight: bold;
+    font-size: 20px;
+}
+.selectSection{
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  
+}
+.select1{
+    margin-left: 10px;
+    border-radius: 6px;
+}
+
+
+.buttonSection{
+display: flex;
+justify-content: space-around;
+margin-bottom: 15px;
+margin-top: 20px;
+}
+ button.ui.button{
+    width: 140px;
+    height: 45px;
+    border: 1px solid slategray;
+    border-radius: 15px;
+    color: black;
+    transition: all 0.3s;
+}
+
+button.ui.button:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em azure;
+    transform: translateY(-0.3em);
+}
+
+
+
+
+.winner{
+    color: green;
+}
+.loser{
+    color: red;
+}
+
+hr{
+  
+    border: 0.5px solid #adb5bd;
+
+}
+@media only screen and (max-width:490px){
+    .main{
+        border-radius: 20px;
+        border: 2px solid #adb5bd;
+        background-color:rgba(0,0,0,0.6);
+        margin-top: 100px;
+        width: 80%!important;    
+    }
+    button.ui.button{
+        height:55px;
+    }
+}
