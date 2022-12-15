@@ -27,7 +27,7 @@ const onValueChange=(e)=>{
      
 const on1st=()=>{
     setScore1(score1 +1)
-    if(score1==winningScore-1){
+    if(score1===winningScore-1){
         setGameState(true);
         setFirstPlayer("winner");
         setsecondPlayer("loser");
@@ -35,7 +35,7 @@ const on1st=()=>{
 };
 const on2nd=()=>{
     setScore2(score2 +1)
-    if(score2==winningScore-1){
+    if(score2===winningScore-1){
         setGameState(true);
         setFirstPlayer("loser");
         setsecondPlayer("winner");
