@@ -23,6 +23,8 @@ const onValueChange=(e)=>{
     setScore1(0);
     setScore2(0);
     setGameState(false);
+    setFirstPlayer("");
+    setsecondPlayer("");  
     };
      
 const on1st=()=>{
